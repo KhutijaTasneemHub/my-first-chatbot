@@ -15,3 +15,8 @@ Importing libraries (tools that python program needs)
 **What it does:** Imports the RecursiveCharacterTextSplitter tool from LangChain, which splits big chunks of text into smaller, manageable pieces.
 Why: Large documents are too big for AI to process at once. This breaks them into smaller “paragraph” chunks so the AI can search through them faster.
 **Example:** If your PDF text has 10,000 characters, it might split it into 1,000-character pieces with some overlap so no important sentence is cut in half.
+
+**from langchain_community.embeddings.openai import OpenAIEmbeddings**
+**What it does:** Lets your program create embeddings using OpenAI’s service.
+What are embeddings? They are like “mathematical fingerprints” of text. Instead of storing text as words, the computer converts it into numbers so it can compare and search them quickly.
+**Example:** “Apple” and “Banana” have embeddings close to each other (both are fruits), but “Apple” and “Car” are far apart.
