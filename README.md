@@ -10,3 +10,8 @@ Importing libraries (tools that python program needs)
 **from PyPDF2 import PdfReader**
 **What it does:** Imports the PdfReader tool from the PyPDF2 library, which allows your code to read PDF files and extract text from them.
 **Example: **If you upload a 10-page PDF, PdfReader can read every page and give you the words inside it, just like reading a book and copying text.
+
+**from langchain.text_splitter import RecursiveCharacterTextSplitter**
+**What it does:** Imports the RecursiveCharacterTextSplitter tool from LangChain, which splits big chunks of text into smaller, manageable pieces.
+Why: Large documents are too big for AI to process at once. This breaks them into smaller “paragraph” chunks so the AI can search through them faster.
+**Example:** If your PDF text has 10,000 characters, it might split it into 1,000-character pieces with some overlap so no important sentence is cut in half.
