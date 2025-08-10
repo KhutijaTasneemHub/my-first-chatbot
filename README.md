@@ -142,7 +142,3 @@ response = chain.run(input_documents=match, question=user_question)
 st.write(response)
 **What it does:**
 Runs the chain. Gets the AI’s answer. Displays it in your web app.
-
-
-
-
