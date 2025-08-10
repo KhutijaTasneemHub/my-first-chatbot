@@ -25,3 +25,8 @@ What are embeddings? They are like “mathematical fingerprints” of text. Inst
 **What it does:** Imports FAISS, a tool for storing and searching embeddings very fast (developed by Facebook AI).
 **In simple terms:** FAISS is like a Google Search for your document, but instead of searching for exact words, it searches for meaning.
 **Example:** If your PDF says “car”, and you search “vehicle”, FAISS can still find the right place.
+
+**from langchain_core import documents**
+**What it does:** Brings in LangChain’s documents system for handling structured text.
+**In this code:** It’s imported but not directly used — possibly unnecessary here.
+
