@@ -20,3 +20,8 @@ Why: Large documents are too big for AI to process at once. This breaks them int
 **What it does:** Lets your program create embeddings using OpenAI’s service.
 What are embeddings? They are like “mathematical fingerprints” of text. Instead of storing text as words, the computer converts it into numbers so it can compare and search them quickly.
 **Example:** “Apple” and “Banana” have embeddings close to each other (both are fruits), but “Apple” and “Car” are far apart.
+
+**from langchain_community.vectorstores import FAISS**
+**What it does:** Imports FAISS, a tool for storing and searching embeddings very fast (developed by Facebook AI).
+**In simple terms:** FAISS is like a Google Search for your document, but instead of searching for exact words, it searches for meaning.
+**Example:** If your PDF says “car”, and you search “vehicle”, FAISS can still find the right place.
