@@ -30,3 +30,8 @@ What are embeddings? They are like “mathematical fingerprints” of text. Inst
 **What it does:** Brings in LangChain’s documents system for handling structured text.
 **In this code:** It’s imported but not directly used — possibly unnecessary here.
 
+**from langchain.chains.question_answering import load_qa_chain**
+**What it does:** Loads a Question-Answering Chain from LangChain.
+**In simple terms:** A chain is a pipeline. This one:
+Takes your question. Looks for matching text in your document. Passes it to the AI model.Gets the answer and gives it back to you.
+
