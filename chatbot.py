@@ -16,7 +16,7 @@ from langchain_community.chat_models import ChatOpenAI
 
 
 
-OPENAI_API_KEY = "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"
+OPENAI_API_KEY = "xxxxx-your-api-key-here"
 #the above generated unique api key is from -  https://platform.openai.com/api-keys
 
 ##upload pdf files
