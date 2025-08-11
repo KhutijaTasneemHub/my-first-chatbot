@@ -27,7 +27,7 @@ Importing libraries (tools that python program needs)
 
 **from langchain_core import documents**
 **What it does:** Brings in LangChain’s documents system for handling structured text.
-**In this code:** It’s imported but not directly used — possibly unnecessary here.
+**In this code:** It’s imported but not directly used- possibly unnecessary here.
 
 **from langchain.chains.question_answering import load_qa_chain**
 **What it does:** Loads a Question-Answering Chain from LangChain.
@@ -55,8 +55,8 @@ with st.sidebar:
     st.title("Your Documents")
     file = st.file_uploader("Upload a PDF File and start asking questions", type='pdf')
 **What it does:**
-with st.sidebar: — Creates a sidebar panel on the left side of the app.
-st.title("Your Documents") — Adds a title in the sidebar.
+with st.sidebar:  Creates a sidebar panel on the left side of the app.
+st.title("Your Documents") - Adds a title in the sidebar.
 file = st.file_uploader(...) — Creates a file upload box where you can upload PDFs.
 **Example:** This is like when a website lets you “Choose File” to upload something.
 
