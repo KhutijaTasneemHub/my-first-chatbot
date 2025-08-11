@@ -1,4 +1,4 @@
-**Code Explanation – Line by Line** written by authour - @KhutijaTasneemHub
+**Code Explanation – Line by Line** written by author - @KhutijaTasneemHub
 
 
 Importing libraries (tools that python program needs) 
